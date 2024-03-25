@@ -39,7 +39,7 @@ describe('Smoke Test', () => {
         url:
           process.env.NODE_ENV === 'mock'
             ? `http://localhost:3100/warning/${warning}`
-            : `http://localhost:3000/?warning=${warning}`
+            : `http://localhost:3000/warning/${warning}`
       };
 
       try {

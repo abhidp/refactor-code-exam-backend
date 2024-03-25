@@ -14,6 +14,6 @@ The above approach will not block the QA team and enable them to continue testin
 - `npm run mock-server`
   - wait for the iteractive CLI to start
   - select `Select Collection` (press ENTER)
-  - select `IDN10016` (press Enter)
+  - select `IDN10016` (press ENTER)
   - do not close this process, open another terminal and run the below command for testing
 - `npm run mock:test`

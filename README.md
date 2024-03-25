@@ -3,3 +3,5 @@
 For software engineers see: [this read me](./README-SE.md)
 
 For quality engineers see: [this read me](./README-QA.md)
+
+For QA work assignment see: [this read me](./README-QA_TESTED.md)
