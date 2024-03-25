@@ -1,0 +1,29 @@
+[
+  {
+    "id": "state",
+    "routes": [
+      "state:NSW"
+    ]
+  },
+  {
+    "id": "IDN10016",
+    "from": "state",
+    "routes": [
+      "warningDetail:IDN10016"
+    ]
+  },
+  {
+    "id": "IDN10031",
+    "from": "state",
+    "routes": [
+      "warningDetail:IDN10031"
+    ]
+  },
+  {
+    "id": "IDN10032",
+    "from": "state",
+    "routes": [
+      "warningDetail:IDN10032"
+    ]
+  }
+]

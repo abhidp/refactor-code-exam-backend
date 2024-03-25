@@ -6,22 +6,31 @@
   "scripts": {
     "start": "NODE_ENV=production ts-node src/index.ts",
     "test": "jest",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "mocks-server": "mocks-server",
+    "mock:test": "export NODE_ENV=mock && jest --verbose ./test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@mocks-server/main": "^4.1.0",
     "ts-jest": "^27.0.3",
     "typescript": "^4.3.5"
   },
   "dependencies": {
     "@types/express": "^4.17.13",
     "@types/jest": "^26.0.24",
+    "axios": "^1.6.8",
     "basic-ftp": "^4.6.6",
     "express": "^4.17.1",
     "jest": "^27.0.6",
     "nodemon": "^2.0.12",
     "ts-node": "^10.1.0",
     "xml2js": "^0.4.23"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^axios$": "axios/dist/node/axios.cjs"
+    }
   }
 }
